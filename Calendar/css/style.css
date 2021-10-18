@@ -1,0 +1,138 @@
+:root {
+    font-family: Roboto;
+    font-style: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.calendar {
+    max-width: 800px ;
+    margin: 0 auto;
+    background-color: rgba(42, 46, 65, .7);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.calendar-header {
+    position: relative;
+    padding: 85px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, .17);
+}
+
+.calendar-header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-left: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    transform: rotate(-45deg);
+}
+
+.calendar-header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 95px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    border-right: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    transform: rotate(45deg);
+}
+
+.calendar-header__title {
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+    text-align: center;
+}
+
+.calendar-body {
+    padding: 20px 0 76px 0 ;
+    border-top: 2px solid rgba(255, 255, 255, .13);
+    border-bottom: 2px solid rgba(0, 0, 0, .17)
+}
+
+.calendar-body__weekdays {
+    display: flex;
+    padding: 45px 0;
+}
+
+.calendar-body__weekdays div {
+    flex: 0 1 14.2857142857%;
+    text-align: center;
+    font-size: 1.625rem;
+    line-height: 1.9375rem;
+    opacity: .6;
+}
+
+.calendar-body__days {
+    display: flex;
+    padding: 25px 2.5px;
+}
+
+.calendar-body__days div {
+    flex: 0 1 80px;
+    margin-right: 5px;
+    padding: 25px 0;
+    border-radius: 50%;
+    font-size: 1.8125rem;
+    line-height: 2.125rem;
+    text-align: center;
+}
+
+.calendar-body__days_active {
+    background-color: #3C82F9;
+}
+
+.calendar-body__days_next {
+    opacity: .5;
+}
+
+.calendar-buttons {
+    border-top: 2px solid rgba(255, 255, 255, .13);
+    padding: 105px 0 240px 0;
+}
+
+.calendar-buttons__title {
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+}
+
+.calendar-buttons__block {
+    display: flex;
+    flex-wrap: wrap ;
+    padding: 42px 0 0 0;
+    gap: 30px;
+}
+
+.calendar-buttons__btn {
+    flex: 0 1 47.5%;   
+    padding: 26px 0 28px 0;
+    border-radius: 12px;
+    font-size: 1.375rem;
+    line-height: 1.61125rem;
+    color: inherit;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.calendar-buttons__btn_lilac {
+    background-color: #8576ED;
+}
+
+.calendar-buttons__btn_yellow {
+    background-color: #F39946;
+}
+
+.calendar-buttons__btn_crimson {
+    background-color: #FF467E;
+    ;
+}
