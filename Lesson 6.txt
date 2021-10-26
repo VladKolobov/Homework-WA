@@ -1,0 +1,13 @@
+Even or Odd (https://www.codewars.com/kata/reviews/5425fedf430ca265ea00033e/groups/5431a0ab7a2df90a5c00025b)
+
+Return Negative (https://www.codewars.com/kata/reviews/556b81de1f97c84309000179/groups/556bf9cdbf07c773ae0000ee)
+
+Jenny's secret message (https://www.codewars.com/kata/reviews/552253df667a8dbf76000447/groups/552253df667a8dbf76000449)
+
+Opposites Attract (https://www.codewars.com/kata/reviews/555086ff587c4e3a7e000095/groups/5555f9d270ed8399350000bc)
+
+Convert boolean values to strings 'Yes' or 'No'(https://www.codewars.com/kata/reviews/54a59ef00c96357db90000e9/groups/54a8ce31b37dc15256000400)
+
+Transportation on vacation (https://www.codewars.com/kata/reviews/568d4ea6ab0a10c7210000f2/groups/56940e3d3f82758e2300004e)
+
+Basic Mathematical Operations (https://www.codewars.com/kata/reviews/57357409555270d3f000001b/groups/57393d8495452049c3000647)
